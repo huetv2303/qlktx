@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form method="post" action="http://localhost/qlktx/DanhsachSV/suadl">
+    <form method="post" action="http://localhost:8088/qlktx/DanhsachSV/suadl">
         <div id="wrapper" style="height: -webkit-fill-available; padding-top: 10px;">
             <!-- <div class="header" style="color: #08449b">
                 <h2>Sửa thông tin sinh viên</h2>

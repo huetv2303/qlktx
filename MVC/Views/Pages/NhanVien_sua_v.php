@@ -20,7 +20,7 @@
 </style>
 <body>
     <div class="main">
-        <form method="post" action="http://localhost/qlktx/DsNhanVien/Update">
+        <form method="post" action="http://localhost:8088/qlktx/DsNhanVien/Update">
             <div class="form-group">
                 <?php
                 if (isset($data['dulieu']) && mysqli_num_rows($data['dulieu']) > 0) {

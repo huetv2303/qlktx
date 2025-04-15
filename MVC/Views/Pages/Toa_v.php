@@ -24,7 +24,7 @@
 <body>
     
         <!-- Thêm mới -->
-        <form method="post" action="http://localhost/qlktx/themToa_c/themmoi">
+        <form method="post" action="http://localhost:8088/qlktx/themToa_c/themmoi">
           
     <div class="modal-add">
         <div class="modal fade" id="addServiceModal" tabindex="-1" aria-labelledby="addServiceModalLabel" aria-hidden="true">
@@ -56,7 +56,7 @@
         </div>
     </div>
 </form>
-<form method="post" action="http://localhost/qlktx/Toa_c/suadl">
+<form method="post" action="http://localhost:8088/qlktx/Toa_c/suadl">
             <!-- Modal Sửa dữ liệu phòng --> 
             <div class="modal-update">
                 <div class="modal fade" id="editServiceModal" tabindex="-1" aria-labelledby="editServiceModalLabel" aria-hidden="true">
@@ -96,7 +96,7 @@
             <table style=" text-align:center">
             </table>
             </div>
-            <a href="http://localhost/qlktx/Toa_c/" style="margin: 10px 0px; background-color: #0d6efd;" class="btn btn-success" name="btnReLoad"><i class="fa-solid fa-rotate-right"></i> Reload</a>
+            <a href="http://localhost:8088/qlktx/Toa_c/" style="margin: 10px 0px; background-color: #0d6efd;" class="btn btn-success" name="btnReLoad"><i class="fa-solid fa-rotate-right"></i> Reload</a>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addServiceModal">Thêm mới </button>
             <br>
          <br>
@@ -121,8 +121,8 @@
                         
                             <td>
                             <button onclick="updateDataT('<?php echo htmlspecialchars(json_encode($row)) ?>')" type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#editServiceModal"><i style="color: green; background: white;" class="fa-solid fa-pen-to-square"></i></button>
-                            <a onclick="return confirm('Bạn có muốn xóa tòa này không?');" href="http://localhost/qlktx/Toa_c/xoa/<?php echo $row['maToa'] ?>" class="btn btn-outline-danger"><i style="color: red;" class="fa-solid fa-trash"></i></a>
-                            <a href="http://localhost/qlktx/Toa_c/lien_ket/<?php echo $row['maToa'] ?>" class="btn btn-outline-danger"><i style="color: red;" ></i>Chi tiết</a> 
+                            <a onclick="return confirm('Bạn có muốn xóa tòa này không?');" href="http://localhost:8088/qlktx/Toa_c/xoa/<?php echo $row['maToa'] ?>" class="btn btn-outline-danger"><i style="color: red;" class="fa-solid fa-trash"></i></a>
+                            <a href="http://localhost:8088/qlktx/Toa_c/lien_ket/<?php echo $row['maToa'] ?>" class="btn btn-outline-danger"><i style="color: red;" ></i>Chi tiết</a> 
                             </td>
                         </tr>
                             <?php

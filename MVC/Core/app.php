@@ -2,7 +2,7 @@
 class app
 {
 
-    protected $controller ='Home';
+    protected $controller ='DanhsachSV';
 
     protected $action = 'Get_data';
     protected $param = [];

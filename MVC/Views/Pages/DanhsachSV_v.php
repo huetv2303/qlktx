@@ -56,7 +56,7 @@
 
 <body>
     <div id="wrapper" style="height: -webkit-fill-available;">
-        <form method="post" action="http://localhost/qlktx/DanhsachSV/timKiem">
+        <form method="post" action="http://localhost:8088/qlktx/DanhsachSV/timKiem">
             <div  style="color: #08449b">
             </div>
 
@@ -68,7 +68,7 @@
                             <h2>Quản lý thông tin sinh viên</h2>
                         </td>
                         <td style="float: right;  margin: 10px">
-                            <button type="submit" class="btn btn-success" name=""><a href="http://localhost/qlktx/SinhVien" style="text-decoration: none; color:white">Thêm mới</a></button>
+                            <button type="submit" class="btn btn-success" name=""><a href="http://localhost:8088/qlktx/SinhVien" style="text-decoration: none; color:white">Thêm mới</a></button>
                         </td>
                     </tr>
                 </table>
@@ -125,8 +125,8 @@
 
 
                                 <td>
-                                    <a href="http://localhost/qlktx/DanhsachSV/sua/<?php echo $row['maSinhVien'] ?>" class="btn btn-outline-primary">Sửa</a> &nbsp;
-                                    <a onclick="return confirm('Bạn có muốn xóa sinh viên này không?');" href="http://localhost/qlktx/DanhsachSV/xoa/<?php echo $row['maSinhVien'] ?>" class="btn btn-outline-danger">Xóa</a>
+                                    <a href="http://localhost:8088/qlktx/DanhsachSV/sua/<?php echo $row['maSinhVien'] ?>" class="btn btn-outline-primary">Sửa</a> &nbsp;
+                                    <a  href="http://localhost:8088/qlktx/DanhsachSV/xoa/<?php echo $row['maSinhVien'] ?>" class="btn btn-outline-danger">Xóa</a>
                                 </td>
                             </tr>
                     <?php
@@ -142,7 +142,7 @@
     </div>
 
     <!-- Modal choose file Excel -->
-    <form action="http://localhost/qlktx/DanhsachSv/ImportExcel" method="post" enctype="multipart/form-data">
+    <form action="http://localhost:8088/qlktx/DanhsachSv/ImportExcel" method="post" enctype="multipart/form-data">
         <div class="modal" id="modalExcel">
             <div class="modal-dialog">
                 <div class="modal-content">

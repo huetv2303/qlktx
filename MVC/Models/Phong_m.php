@@ -80,29 +80,29 @@ class Phong_m extends connectDB{
     //     SET phong.manhomsinhvien = nhomsinhvien.manhomsinhvien;";
     //     return mysqli_query($this->conn, $sql2);
     // }
-    public function update_ctphong()
-    {
-        $sql2 = "UPDATE phong
-        JOIN hopdong ON hopdong.maPhong = phong.maPhong
-        SET phong.maHopDong = hopdong.maHopDong;";
-        return mysqli_query($this->conn, $sql2);
-    }
+    // public function update_ctphong()
+    // {
+    //     $sql2 = "UPDATE phong
+    //     JOIN hopdong ON hopdong.maPhong = phong.maPhong
+    //     SET phong.maHopDong = hopdong.maHopDong;";
+    //     return mysqli_query($this->conn, $sql2);
+    // }
 
 
-    public function ds_sinhvien($hopdong){
-        $sql = "SELECT thongtinsinhvien.maSinhVien,thongtinsinhvien.hoTen,thongtinsinhvien.soDienThoai,thongtinsinhvien.gioiTinh
-                FROM hopdong
-                join phong on phong.maPhong= hopdong.maPhong
-                join nhomsinhvien on nhomsinhvien.maTruongNhom=hopdong.maTruongNhom
-                join thongtinsinhvien on thongtinsinhvien.maNhomSinhVien=nhomsinhvien.maNhomSinhVien
-                where phong.maHopDong=N'$hopdong'";
-        return  mysqli_query($this->conn, $sql);
+    // public function ds_sinhvien($hopdong){
+    //     $sql = "SELECT thongtinsinhvien.maSinhVien,thongtinsinhvien.hoTen,thongtinsinhvien.soDienThoai,thongtinsinhvien.gioiTinh
+    //             FROM hopdong
+    //             join phong on phong.maPhong= hopdong.maPhong
+    //             join nhomsinhvien on nhomsinhvien.maTruongNhom=hopdong.maTruongNhom
+    //             join thongtinsinhvien on thongtinsinhvien.maNhomSinhVien=nhomsinhvien.maNhomSinhVien
+    //             where phong.maHopDong=N'$hopdong'";
+    //     return  mysqli_query($this->conn, $sql);
         
-    }
-    function find3($hopdong){
-        $sql="SELECT * FROM phong WHERE maHopDong = N'$hopdong' " ;
-        return mysqli_query($this->conn,$sql);
-    }
+    // }
+    // function find3($hopdong){
+    //     $sql="SELECT * FROM phong WHERE maHopDong = N'$hopdong' " ;
+    //     return mysqli_query($this->conn,$sql);
+    // }
 
    
 }

@@ -34,7 +34,7 @@
     
 </head>
 <body>
-<form method="post" action="http://localhost/qlktx/DanhsachPhong_c/timkiem">
+<form method="post" action="http://localhost:8088/qlktx/DanhsachPhong_c/timkiem">
     
         <br>
         <div class="form-inline" >

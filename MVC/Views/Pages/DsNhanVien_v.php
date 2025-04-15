@@ -43,7 +43,7 @@
 
 <body>
     <div class="main">
-        <form method="post" action="http://localhost/qlktx/DsNhanVien/Search">
+        <form method="post" action="http://localhost:8088/qlktx/DsNhanVien/Search">
             <div>
                 <div class="header">
                     <h3>Danh sách nhân viên</h3>
@@ -100,8 +100,8 @@
                                     <td><?php echo $row['SoDienThoai'] ?></td>
                                     <td style="width: 200px;">
 
-                                        <a href="http://localhost/qlktx/DsNhanVien/loadForm/<?php echo $row['MaNhanVien'] ?>" class="btn btn-outline-primary"><i class="fa-solid fa-pen-to-square">&nbsp;&nbsp;</i>Sửa</a> &nbsp;
-                                        <a onclick="return confirm('Bạn có muốn xóa nhân viên này không ?')" href="http://localhost/qlktx/DsNhanVien/Delete/<?php echo $row['MaNhanVien'] ?>" class="btn btn-outline-danger"><i class="fa-solid fa-trash">&nbsp;&nbsp;</i>Xóa</a>
+                                        <a href="http://localhost:8088/qlktx/DsNhanVien/loadForm/<?php echo $row['MaNhanVien'] ?>" class="btn btn-outline-primary"><i class="fa-solid fa-pen-to-square">&nbsp;&nbsp;</i>Sửa</a> &nbsp;
+                                        <a href="http://localhost:8088/qlktx/DsNhanVien/Delete/<?php echo $row['MaNhanVien'] ?>" class="btn btn-outline-danger"><i class="fa-solid fa-trash">&nbsp;&nbsp;</i>Xóa</a>
                                     </td>
                                 </tr>
                         <?php
@@ -171,7 +171,7 @@
     </form>
 
     <!-- Modal choose file Excel -->
-    <form action="http://localhost/qlktx/DsNhanVien/ImportExcel" method="post" enctype="multipart/form-data">
+    <form action="http://localhost:8088/qlktx/DsNhanVien/ImportExcel" method="post" enctype="multipart/form-data">
         <div class="modal" id="modalExcel">
             <div class="modal-dialog">
                 <div class="modal-content">
