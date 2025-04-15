@@ -12,22 +12,22 @@
     <script src="https://kit.fontawesome.com/7c35a47a4f.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="http://localhost/QuanLyKyTucXa_new/Public/CSS/style.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="http://localhost/QuanLyKyTucXa_new/Public/CSS/master.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="http://localhost/QuanLyKyTucXa_new/Public/CSS/style.css?v= <?php echo time() ?>">
-    <script src="http://localhost/QuanLyKyTucXa_new/Public/JS/DichVu_js.js?v= <?php echo time() ?>"> </script>
+    <link rel="stylesheet" href="http://localhost/qlktx/Public/CSS/style.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="http://localhost/qlktx/Public/CSS/master.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="http://localhost/qlktx/Public/CSS/style.css?v= <?php echo time() ?>">
+    <script src="http://localhost/qlktx/Public/JS/DichVu_js.js?v= <?php echo time() ?>"> </script>
 
-    <script src="http://localhost/QuanLyKyTucXa_new/Public/JS/DichVu_js.js?v=1"> </script>
-    <script src="http://localhost/QuanLyKyTucXa_new/Public/JS/phong.js?v=1"> </script>
+    <script src="http://localhost/qlktx/Public/JS/DichVu_js.js?v=1"> </script>
+    <script src="http://localhost/qlktx/Public/JS/phong.js?v=1"> </script>
 
-    <script src="http://localhost/QuanLyKyTucXa_new/Public/JS/DichVu_js.js?v= <?php echo time() ?>"> </script>
+    <script src="http://localhost/qlktx/Public/JS/DichVu_js.js?v= <?php echo time() ?>"> </script>
 
-    <script src="http://localhost/QuanLyKyTucXa_new/Public/JS/XemSV_js.js?v= <?php echo time() ?>"> </script>
+    <script src="http://localhost/qlktx/Public/JS/XemSV_js.js?v= <?php echo time() ?>"> </script>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="http://localhost/QuanLyKyTucXa_new/Public/CSS/l1.css">
-    <script src="http://localhost/QuanLyKyTucXa_new/Public/JS/DichVu_js.js?v=<?php echo time(); ?>"></script>
-    <script src="http://localhost/QuanLyKyTucXa_new/Public/JS/phong.js?v=1"></script>
+    <link rel="stylesheet" href="http://localhost/qlktx/Public/CSS/l1.css">
+    <script src="http://localhost/qlktx/Public/JS/DichVu_js.js?v=<?php echo time(); ?>"></script>
+    <script src="http://localhost/qlktx/Public/JS/phong.js?v=1"></script>
     <script src="https:/cdn.jsdelivr.net/npm/chart.js"></script>
 
 </head>
@@ -43,22 +43,22 @@
             <hr >
             <ul class="menu list-unstyled">
                 <li>
-                    <a href="http://localhost/QuanLyKyTucXa_new/Home"  aria-expanded="false" >Home</a>
+                    <a href="http://localhost/qlktx/Home"  aria-expanded="false" >Home</a>
                     
                 </li>
                 
                 <li>
                     <a href="#formsSubmenu" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Quản lý</a>
                     <ul class="collapse list-unstyled" id="formsSubmenu">
-                        <li><a href="http://localhost/QuanLyKyTucXa_new/Toa_c">Danh sách tòa</a></li>
-                        <li><a href="http://localhost/QuanLyKyTucXa_new/DanhsachPhong_c">Danh sách phòng</a></li>
+                        <li><a href="http://localhost/qlktx/Toa_c">Danh sách tòa</a></li>
+                        <li><a href="http://localhost/qlktx/DanhsachPhong_c">Danh sách phòng</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#uiElementsSubmenu" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Quản lý thông tin</a>
                     <ul class="collapse list-unstyled" id="uiElementsSubmenu">
-                        <li><a href="http://localhost/QuanLyKyTucXa_new/DsNhanVien">Danh sách nhân viên</a></li>
-                        <li><a href="http://localhost/QuanLyKyTucXa_new/DanhsachSV">Danh sách sinh viên</a></li>
+                        <li><a href="http://localhost/qlktx/DsNhanVien">Danh sách nhân viên</a></li>
+                        <li><a href="http://localhost/qlktx/DanhsachSV">Danh sách sinh viên</a></li>
                     </ul>
                 </li>
                 
@@ -76,7 +76,7 @@
                 <h1>Quản lý ký túc xá</h1>
                 <div class="out">
                 <i style="color:#0A9DE2" class="fa-solid fa-right-from-bracket"></i>
-                <a  href="http://localhost/QuanLyKyTucXa_new/DangNhap"></i>Thoát</a>
+                <a  href="http://localhost/qlktx/DangNhap"></i>Thoát</a>
                 </div>
             </header>
             <section id="content-right1">
